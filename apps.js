@@ -10,8 +10,6 @@ Complete Exercise 2 in the space below:
 */
 
 
-foods.push()
-
 console.log('Exercise 2 result:', foods);  
 
 const foods = [];
@@ -69,7 +67,9 @@ foods.unshift("taco");
 
 Complete Exercise 3 in the space below:
 */
-
+const foods = ["pizza", "cheseburger"]
+foods.unshift("taco");
+console.log(foods);
 
 
 console.log('Exercise 3 result:', foods);
@@ -106,12 +106,13 @@ Exercise 5: Insert an element between two others
 
 Complete Exercise 5 in the space below:
 */
+const foods = ["pizza", "cheese burger"]
 
 foods.splice [1, 0, "tofu"]
 
 ["pizza", "tofu", "cheseburger"]
 
-
+console.log(foods);
 
 console.log('Exercise 5 result:', foods);
 
@@ -126,7 +127,11 @@ Exercise 7: Using the `slice()` method
 Complete Exercise 7 in the space below:
 */
 
+const foods = ["pizza", "cheese burger"]
 
+const yummy = foods.slice(2);
+
+console.log(yummy);
 
 console.log('Exercise 7 result:', yummy);
 
